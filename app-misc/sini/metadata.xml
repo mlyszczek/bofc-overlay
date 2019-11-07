@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>michal.lyszczek@bofc.pl</email>
+	</maintainer>
+	<longdescription lang="en">
+		sini - shell ini, it simply allows you to manipulate dos ini files from command line or shell script. Both read and store (non destructive) operations are supported.
+	</longdescription>
+</pkgmetadata>
