@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>michal.lyszczek@bofc.pl</email>
+	</maintainer>
+	<longdescription lang="en">
+		ntpd-setwait is very small program that ensures time is synchronized before ntpd daemon can be started.
+	</longdescription>
+</pkgmetadata>
