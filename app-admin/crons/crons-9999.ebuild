@@ -17,7 +17,9 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="app-shells/bash"
+DEPEND="acct-group/backup
+acct-user/backup
+app-shells/bash"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
