@@ -1,0 +1,7 @@
+# Copyright 1999-2011 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+name="apc2mqtt"
+command=/sbin/supervise-daemon
+command_args="$name -S apc2mqtt -- $apc_dev"

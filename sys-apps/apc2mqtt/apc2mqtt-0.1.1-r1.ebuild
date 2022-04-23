@@ -16,6 +16,14 @@ SLOT="0"
 KEYWORDS="*"
 IUSE=""
 
-DEPEND="app-misc/mosquitto"
+DEPEND="app-misc/mosquitto
+dev-libs/libbsd
+dev-libs/embedlog"
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+src_install() {
+	emake PREFIX="/" DESTDIR="${D}" install
+	newinitd ${FILESDIR}/initd_${PN} ${PN}
+	newconfd ${FILESDIR}/confd_${PN} ${PN}
+}
