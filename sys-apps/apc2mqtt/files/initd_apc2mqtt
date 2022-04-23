@@ -6,3 +6,7 @@
 name="apc2mqtt"
 command=/sbin/supervise-daemon
 command_args="$name -S apc2mqtt -- $apc_dev"
+
+depend() {
+	need mosquitto
+}
