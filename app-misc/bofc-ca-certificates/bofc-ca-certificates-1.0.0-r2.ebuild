@@ -24,9 +24,7 @@
 # - If people want to add/remove certs, tell them to file w/mozilla:
 #   https://bugzilla.mozilla.org/enter_bug.cgi?product=NSS&component=CA%20Certificates&version=trunk
 
-EAPI=6
-
-inherit eutils
+EAPI=8
 
 DESCRIPTION="Bits of Code CA Certificates PEM files"
 HOMEPAGE="https://en.bofc.pl"
